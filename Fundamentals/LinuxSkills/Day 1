@@ -1,0 +1,42 @@
+#Day 1 of Linux Skills 
+
+1.man- command that displays a manual of that command
+Example:
+• man echo
+
+2.cd- Command that changes directory
+Example:
+• cd <DIRECTORY PATH>
+
+3.ls- Command that list files
+Example:
+• ls Display all the name files
+• ls -a List all files including hidden directories
+• ls -l Display files in a long list including file permissions
+• ls -r Display files in a reverse order
+• ls -R Display subdirectories recursively
+• ls -t Display files by time 
+• ls -h Display file size in human format
+
+4.cat- Command that read and writes files
+Example:
+• cat <FILENAME>.txt
+• cat -n Display the number of lines that a file haves.
+• cat filename;filename2;filename3 Display all the files 
+• cat filename > filename2 Redirects a existing file into a new file 
+• cat filename >> filename2 appends in existing file by using >>
+• cat -e filename It will display if the file haves spaces between paragraphs
+• cat -T It will display if the file haves TAB spaces
+
+5.mkdir- Command that creates a folder.
+Example mkdir <FOLDERNAME>
+• mkdir dirname1 dirname2 Creates 2 folder names separated
+• mkdir -p dirname1/dirname2/dirname3 Creates multiple folders with a parent folder
+
+6.Touch- Command that creates text files.
+Example:
+• touch file.txt Creates a text file called file.txt
+• touch file1 file2 file3 Creates multiple files
+• touch -a file.txt it will update the file if the file exist
+• touch -t YYMMDDHHMM.SS file.txt Creates a file with a assign date and time.
+• touch -r file1 file2 Creates a file with the timestamp of the first file
