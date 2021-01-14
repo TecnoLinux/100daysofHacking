@@ -1,4 +1,5 @@
 This is area Red Team
+
 In this area we will cover the following areas
 
 # OSINT
