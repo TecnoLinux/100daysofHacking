@@ -1,0 +1,62 @@
+# Day1 of WebHacking
+
+On of the things that makes hackers professional is doing this steps down below, a hacker always looks for the lowest hanging fruit
+that means that hackers always find the easy path in order to hack but that happens rarely. Is important to say that it depends on the scenario
+sometimes would be easy and other times difficult. You have to practice this phases in order to be a hacker. How can you do that is simple you can go on any
+CTF and try not to do the challenge quickly, take your time until you get those phases.
+
+The Process that pentesters follow is summarized in the following steps:
+1. Reconnaissance
+2. Enumeration/Scanning
+3. Gaining Access
+4. Privilege Escalation
+5. Covering Tracks
+6. Reporting
+
+1. Reconnaissance-Reconnaissance is all about collecting information about your target.
+Tools for Reconnaissance:
+• Google (specifically Google Dorking)
+• Wikipedia
+• PeopleFinder.com
+• who.is
+• sublist3r
+• hunter.io
+• builtwith.com
+• wappalyzer
+• spokeo.com
+
+2. Enumeration/Scanning-The enumeration and scanning phase is where we will try to determine WHAT the target might be vulnerable to.
+Tools for Enumeration/Scanning:
+• dirb 
+• dirbuster 
+• gobuster
+• wfuzz
+• smbclient
+• enum4linux 
+• metasploit
+• Burp Suite
+• Zaproxy
+
+3. Gaining Access-In this phase it just mapping out the way of gaining access based on the first two steps You can do it by doing a custom exploit
+,using an actual exploit or you can use tools to abuse functionalities on a website.
+Tools for Gaining Access:
+• metasploit
+• sqlmap
+• burp suite 
+• beef 
+• msfvenom
+
+4. Privilege Escalation-Privilege escalation is the act of exploiting a bug, design flaw or configuration oversight in an operating system or software application to gain elevated access to resources that are normally protected from an application or user. The result is that an application with more privileges than intended by the application developer or system administrator can perform unauthorized actions.
+
+5. Covering Tracks-While ethical hackers rarely have a need to cover their tracks, you still must carefully track and notate all of the tasks that you performed as part of the penetration test to assist in fixing the vulnerabilities and recommending changes to the system owner.
+
+6. Reporting-The reporting phase,this is one of the most important phases where you will outline everything that you found.
+The reporting phase often includes the following things:
+• The Finding(s) or Vulnerabilities
+• The CRITICALITY of the Finding
+• A description or brief overview of how the finding was discovered
+• Remediation recommendations to resolve the finding
+
+
+
+
