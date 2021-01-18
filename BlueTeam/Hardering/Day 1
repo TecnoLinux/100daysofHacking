@@ -1,0 +1,46 @@
+#Day 1 of Hardering
+
+Secure installation
+It is strongly recommended that Windows 10 be installed fresh on a system. Previously used systems may have malware, spyware and who knows what else from web browsing, and pre-installed systems may contain an absurd amount of bloatware. Create or locate a suitable installation media for your Windows 10 system (a trusted USB drive, preferably). Make sure to turn off your system’s wireless internet and unplug its Ethernet connection
+
+Clean up unwanted programs
+Even in fresh installations of Windows 10, a system likely has unnecessary programs installed. These programs expand the attack surface and become potential points of entry for attackers. Installed programs should be reviewed then the unneeded deleted. Verify that all installed programs are legitimate and not pirated software, which could be filled with bloat and malware. 
+
+Encryption
+Hard drives should be encrypted. Windows 10 comes with BitLocker as its built-in encryption solution and the encryption process is easy. Trusted Platform Module (TPM) must be enabled to encrypt with BitLocker. Later editions of Windows 10 come with TPM enabled by default, making it one less thing to think about. 
+Secure boot should be used in conjunction with encryption. It will link the hard drive to the system hardware and ensure that only Microsoft-trusted firmware is used upon boot. 
+
+Updates, patches and service packs
+Make sure that the Windows 10 system is caught up on all updates, patches and service packs. A Windows 10 system that is not caught up on the latest updates and patches or service packs is an easier target for attackers. 
+
+BIOS configuration
+Windows 10 systems come loaded with a Basic Input Output System (BIOS) like previous versions of Windows. The BIOS has a DOS-ish interface but doesn’t require extensive coding experience to operate. Prior to working with the BIOS, research whether your Windows 10 variant has any BIOS configuration applicable to it, then configure away.
+
+Enable the guards!
+Windows 10 has several built-in security solutions for different aspects of the OS that use “guard” as their feature surname. Below is a list of “guards” that should be enabled to reduce attack surface.
+• Device Guard
+• Credential Guard
+• Application Guard
+• Exploit Guard
+
+
+Get rid of unneeded services
+Windows 10 systems contain many services that organizations don’t want or need running. The system should be checked for both rogue services and those that came pre-installed (OOBE).
+
+Windows Defender
+Microsoft integrated a free antivirus (AV) solution into Windows 10 that does not have major weaknesses and actually works, unlike most free AV solutions. Windows Defender should be turned on by default; to check on this, open the Windows Defender dashboard. 
+
+Group policy
+This technique is too large to give anything but a brief overview, as organizations have their own specific needs and Windows has an enormous amount of group policy. Organizations with an IT department normally have baseline of group policy settings that are configured for every new Windows 10 machine that is onboarded. A Windows 10 system should comply with this group policy baseline upon first boot. 
+Passwords are one group policy setting that is pretty universal across organizations. A password group policy should mandate complex passwords and set a password reset interval. 
+
+Ransomware protection
+Windows Defender offers ransomware protection, but it’s not turned on by default. During the hardening process look in Virus & Threat Protection → Ransomware protection → Manage ransomware protection. Make sure that controlled folder access is on. Keep in mind that this will prevent applications from creating files within the documents folder.
+
+Secure authentication
+Authentication needs to be hardened as it can be a glaring expanse of attack surface. The best way to do this is to set multi-factor authentication. This can include a complex password as one of the factors, with the other either being a PIN, gesture, biometrics or picture password. 
+
+Secure web browsing
+Edge is Windows 10’s default browser and it is also an app. This means that it can operate in a sandbox if needed, giving it some heightened security. 
+
+
